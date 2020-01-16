@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		791FEE7E23CFE89200C09884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FEE7D23CFE89200C09884 /* AppDelegate.swift */; };
 		791FEE8023CFE89200C09884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FEE7F23CFE89200C09884 /* ViewController.swift */; };
-		791FEE8323CFE89200C09884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791FEE8123CFE89200C09884 /* Main.storyboard */; };
 		791FEE8523CFE89800C09884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791FEE8423CFE89800C09884 /* Assets.xcassets */; };
 		791FEE8823CFE89800C09884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791FEE8623CFE89800C09884 /* LaunchScreen.storyboard */; };
+		791FEE9023CFE8CB00C09884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791FEE8F23CFE8CB00C09884 /* Main.storyboard */; };
+		791FEE9423CFE9F700C09884 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FEE9323CFE9F700C09884 /* TemperatureConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		791FEE7A23CFE89200C09884 /* TemperatureConverter03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		791FEE7D23CFE89200C09884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		791FEE7F23CFE89200C09884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		791FEE8223CFE89200C09884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		791FEE8423CFE89800C09884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		791FEE8723CFE89800C09884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		791FEE8923CFE89800C09884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791FEE8F23CFE8CB00C09884 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		791FEE9323CFE9F700C09884 /* TemperatureConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		791FEE7C23CFE89200C09884 /* TemperatureConverter03 */ = {
 			isa = PBXGroup;
 			children = (
+				791FEE9323CFE9F700C09884 /* TemperatureConverter.swift */,
+				791FEE8F23CFE8CB00C09884 /* Main.storyboard */,
 				791FEE7D23CFE89200C09884 /* AppDelegate.swift */,
 				791FEE7F23CFE89200C09884 /* ViewController.swift */,
-				791FEE8123CFE89200C09884 /* Main.storyboard */,
 				791FEE8423CFE89800C09884 /* Assets.xcassets */,
 				791FEE8623CFE89800C09884 /* LaunchScreen.storyboard */,
 				791FEE8923CFE89800C09884 /* Info.plist */,
@@ -124,7 +127,7 @@
 			files = (
 				791FEE8823CFE89800C09884 /* LaunchScreen.storyboard in Resources */,
 				791FEE8523CFE89800C09884 /* Assets.xcassets in Resources */,
-				791FEE8323CFE89200C09884 /* Main.storyboard in Resources */,
+				791FEE9023CFE8CB00C09884 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791FEE9423CFE9F700C09884 /* TemperatureConverter.swift in Sources */,
 				791FEE8023CFE89200C09884 /* ViewController.swift in Sources */,
 				791FEE7E23CFE89200C09884 /* AppDelegate.swift in Sources */,
 			);
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		791FEE8123CFE89200C09884 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				791FEE8223CFE89200C09884 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		791FEE8623CFE89800C09884 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
